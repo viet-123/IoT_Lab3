@@ -10,8 +10,8 @@ mess = ""
 
 #TODO: Add your token and your comport
 #Please check the comport in the device manager
-THINGS_BOARD_ACCESS_TOKEN = "usEV5ZbXgnWRnl7z9puf"
-bbc_port = "COM9"
+THINGS_BOARD_ACCESS_TOKEN = "at2gzkdJlf9rajKiTde3"
+bbc_port = "COM3"
 if len(bbc_port) > 0:
     ser = serial.Serial(port=bbc_port, baudrate=115200)
 light = 0
